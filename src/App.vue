@@ -1,17 +1,18 @@
 <template>
   <div class="w-full">
-    <!-- <Navbar />  FOR TESTING PURPOSES ONLY, IT LOOKS LIKE SHIT. ONLY USE IF NECESSARY TO TEST ROUTES, THX PWP :* -->
+    <!-- FOR TESTING PURPOSES ONLY, IT LOOKS LIKE SHIT. ONLY USE IF NECESSARY TO TEST ROUTES, THX PWP :* -->
+    <Navbar />
     <router-view></router-view>
   </div>
 </template>
 
 <script>
-// import Navbar from './components/Navbar.vue'
+import Navbar from './components/Navbar.vue'
 
 export default {
   name: 'App',
   components: {
-    // Navbar
+    Navbar
   },
   data: function () {
     return {

@@ -3,12 +3,13 @@
     <router-link to="/" class="font-bold text-gray-800 mx-2 px-2 py-3 hover:text-black duration-50">Home</router-link>
     <router-link to="/login" class="font-bold text-gray-800 mx-2 px-2 py-3 hover:text-black duration-50">Login</router-link>
     <router-link to="/signup" class="font-bold text-gray-800 mx-2 px-2 py-3 hover:text-black duration-50">Signup</router-link>
+    <router-link to="/profile" class="font-bold text-gray-800 mx-2 px-2 py-3 hover:text-black duration-50">Profile</router-link>
   </nav>
 </template>
 
 <script>
 export default {
-
+  name: 'Navbar'
 }
 </script>
 
