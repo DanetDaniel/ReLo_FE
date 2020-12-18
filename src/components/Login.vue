@@ -9,7 +9,7 @@
         type="text"
         name="username"
         id="username"
-        class="w-full border border-4 border-transparent rounded mb-4 p-2 bg-gray-300 font-normal text-gray-700 focus:outline-none focus:border-blue-400"
+        class="w-full border border-4 border-transparent rounded mb-4 p-2 bg-gray-200 font-normal text-gray-700 focus:outline-none focus:border-blue-400"
       >
       <label
         for="password"
@@ -19,7 +19,7 @@
         type="password"
         name="password"
         id="password"
-        class="w-full border border-4 border-transparent rounded mb-4 p-2 bg-gray-300 font-normal text-gray-700 focus:outline-none focus:border-blue-400"
+        class="w-full border border-4 border-transparent rounded mb-4 p-2 bg-gray-200 font-normal text-gray-700 focus:outline-none focus:border-blue-400"
       >
       <button
         type="submit"
